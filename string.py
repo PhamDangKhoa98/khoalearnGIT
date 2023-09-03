@@ -4,3 +4,4 @@ tuoi=input(" Nhap so tuoi: ")
 print("Năm nay anh "+tuoi+" tuoi")
 a=int(tuoi)+3
 print(a)
+print(intro.upper())
