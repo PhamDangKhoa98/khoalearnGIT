@@ -17,6 +17,10 @@ else:
     KPriceHouse=0.2*PriceHouse
 
 print(f"House's Price is {KPriceHouse}")
+if PriceHouse<10:
+    print("Ngheo qua")
+else:
+    print("gia ngheo gia kho")
 
 if GoodCredit and (Score>9):
     print("xung dang co 10 nguoi yeu")
